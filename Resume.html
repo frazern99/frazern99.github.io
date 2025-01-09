@@ -4,28 +4,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link class = "style" rel="stylesheet" type="text/css" href="stylesheetlight.css" />
     
     <title></title>
   </head>
   <body>
+
+    <label class="switch">
+      <input class = "lightDark" type="checkbox">
+      
+      <span class="slider round">
+        <img>
+    
+      </span>
+    </label>
+
+
     <div class="topnav">
       <a href="index.html">Home</a>
       <a class = "active" >Resume</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+      
     </div>
     <iframe src="https://docs.google.com/document/d/19N7K8ss7OpSpDOdb-1XOSA4AJ4KbaVj2/pub?embedded=true" class = "document">
     </iframe>
 <div class = "parent" style = "text-align: center;">
     <div id = "mydiv" class="button" style = "display: inline-block;">
         <a href="Port Website.html">Back</a> 
-       <!-- href = "Javascript.html" -->
+       
     </div>
     
     <div id = "mydiv"  class="button" style = "margin-left: 100px;">
         <a href = "https://drive.google.com/uc?export=download&id=19N7K8ss7OpSpDOdb-1XOSA4AJ4KbaVj2">Download</a> 
-       <!-- href = "Javascript.html" -->
+       
     </div> 
 </div>
     
@@ -34,10 +44,10 @@
    
     <p id="print" style = "color:white; padding:16px 16px;"></p>
     <p id = "test" style = "color:white; padding:16px 16px;"></p>
-    <!--<script>
-      document.getElementById("print").innerHTML = document.getElementById("check").clientWidth;
-    </script> -->
+    
+    <script src = "modeSwitch.js"></script>
      <div class = "border"></div>
+
      
   </body>
 </html>
